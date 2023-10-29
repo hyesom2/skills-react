@@ -1,11 +1,11 @@
 import React from 'react';
-import MyComponent from './MyComponent'; //import 구문을 사용하여 MyComponent 컴포넌트를 불러온다.
+import MyComponent from './MyComponent';
 
 const App = () => {
   return (
-    <>
-      <MyComponent />
-    </>
+    <div>
+      <MyComponent name="React" />
+    </div>
   );
 }
 
