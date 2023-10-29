@@ -6,4 +6,4 @@ const MyComponent = () => {
   );
 }
 
-export default MyComponent;
+export default MyComponent; // 다른 파일에서 이 파일을 import 할 때, MyComponent 클래스를 불러오도록 설정
